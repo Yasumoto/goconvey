@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/smartystreets/goconvey/convey/reporting"
+	"github.com/Yasumoto/goconvey/convey/reporting"
 )
 
 func TestStackTrace(t *testing.T) {

@@ -6,7 +6,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/smartystreets/goconvey/web/server/contract"
+	"github.com/Yasumoto/goconvey/web/server/contract"
 )
 
 type ConcurrentTester struct {

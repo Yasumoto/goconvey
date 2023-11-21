@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/smartystreets/goconvey/web/server/contract"
+	"github.com/Yasumoto/goconvey/web/server/contract"
 )
 
 type concurrentCoordinator struct {

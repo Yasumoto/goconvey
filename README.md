@@ -3,8 +3,8 @@
 GoConvey is awesome Go testing
 ==============================
 
-[![Build Status](https://app.travis-ci.com/smartystreets/goconvey.svg?branch=master)](https://app.travis-ci.com/smartystreets/goconvey)
-[![GoDoc](https://godoc.org/github.com/smartystreets/goconvey?status.svg)](http://godoc.org/github.com/smartystreets/goconvey)
+[![Build Status](https://app.travis-ci.com/Yasumoto/goconvey.svg?branch=master)](https://app.travis-ci.com/Yasumoto/goconvey)
+[![GoDoc](https://godoc.org/github.com/Yasumoto/goconvey?status.svg)](http://godoc.org/github.com/Yasumoto/goconvey)
 
 
 Welcome to GoConvey, a yummy Go testing tool for gophers. Works with `go test`. Use it in the terminal or browser according to your viewing pleasure.
@@ -41,9 +41,9 @@ You can ask questions about how to use GoConvey on [StackOverflow](http://stacko
 Installation
 ------------
 
-	$ go install github.com/smartystreets/goconvey
+	$ go install github.com/Yasumoto/goconvey
 
-[Quick start](https://github.com/smartystreets/goconvey/wiki#get-going-in-25-seconds)
+[Quick start](https://github.com/Yasumoto/goconvey/wiki#get-going-in-25-seconds)
 -----------
 
 Make a test, for example:
@@ -53,7 +53,7 @@ package package_name
 
 import (
     "testing"
-    . "github.com/smartystreets/goconvey/convey"
+    . "github.com/Yasumoto/goconvey/convey"
 )
 
 func TestSpec(t *testing.T) {
@@ -74,7 +74,7 @@ func TestSpec(t *testing.T) {
 ```
 
 
-#### [In the browser](https://github.com/smartystreets/goconvey/wiki/Web-UI)
+#### [In the browser](https://github.com/Yasumoto/goconvey/wiki/Web-UI)
 
 Start up the GoConvey web server at your project's path:
 
@@ -95,11 +95,11 @@ As long as GoConvey is running, test results will automatically update in your b
 The design is responsive, so you can squish the browser real tight if you need to put it beside your code.
 
 
-The [web UI](https://github.com/smartystreets/goconvey/wiki/Web-UI) supports traditional Go tests, so use it even if you're not using GoConvey tests.
+The [web UI](https://github.com/Yasumoto/goconvey/wiki/Web-UI) supports traditional Go tests, so use it even if you're not using GoConvey tests.
 
 
 
-#### [In the terminal](https://github.com/smartystreets/goconvey/wiki/Execution)
+#### [In the terminal](https://github.com/Yasumoto/goconvey/wiki/Execution)
 
 Just do what you do best:
 
@@ -110,16 +110,16 @@ Or if you want the output to include the story:
     $ go test -v
 
 
-[Documentation](https://github.com/smartystreets/goconvey/wiki)
+[Documentation](https://github.com/Yasumoto/goconvey/wiki)
 -----------
 
 Check out the
 
-- [GoConvey wiki](https://github.com/smartystreets/goconvey/wiki),
-- [![GoDoc](https://godoc.org/github.com/smartystreets/goconvey?status.png)](http://godoc.org/github.com/smartystreets/goconvey)
+- [GoConvey wiki](https://github.com/Yasumoto/goconvey/wiki),
+- [![GoDoc](https://godoc.org/github.com/Yasumoto/goconvey?status.png)](http://godoc.org/github.com/Yasumoto/goconvey)
 - and the *_test.go files scattered throughout this project.
 
 Contributors
 ----------------------
 
-GoConvey is brought to you by [SmartyStreets](https://github.com/smartystreets) and [several contributors](https://github.com/smartystreets/goconvey/graphs/contributors) (Thanks!).
+GoConvey is brought to you by [SmartyStreets](https://github.com/smartystreets) and [several contributors](https://github.com/Yasumoto/goconvey/graphs/contributors) (Thanks!).

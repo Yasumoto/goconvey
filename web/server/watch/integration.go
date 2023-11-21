@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/smartystreets/goconvey/web/server/messaging"
+	"github.com/Yasumoto/goconvey/web/server/messaging"
 )
 
 type Watcher struct {
